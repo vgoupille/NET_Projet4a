@@ -1,4 +1,4 @@
-name: myenv1
+name: myenvTEST
 channels:
   - defaults
 dependencies:
@@ -69,4 +69,4 @@ dependencies:
       - wcwidth==0.2.13
       - widgetsnbextension==4.0.13
       - yfiles-jupyter-graphs==1.8.1 ##########
-prefix: /opt/anaconda3/envs/myenv1
+prefix: /opt/anaconda3/envs/myenTEST
