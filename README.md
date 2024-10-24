@@ -15,4 +15,10 @@ Indication : vous avez un graphe au format .graphml (http://graphml.graphdrawing
 Je vous conseille d’utiliser networkx, mais ce n’est pas une obligation.
 
 
-pip install yfiles_jupyter_graphs
+library a installer :
+ pip install igraph
+ pip install networkx
+ 
+pip install pyyed #A simple Python library to export graphs to the yEd graph editor
+
+pip install yfiles_jupyter_graphs #yFiles Graphs for Jupyter is a free diagram visualization extension for JupyterLab and Jupyter Notebook. You can easily load structures from your favorite Python graph package and benefit from the superior visualization and automatic layouts of our established yFiles SDK.
