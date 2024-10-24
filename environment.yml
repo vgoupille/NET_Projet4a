@@ -60,6 +60,7 @@ dependencies:
       - pure-eval==0.2.3
       - pygments==2.18.0
       - pyparsing==3.2.0
+      - pyyaml==6.0.2
       - pyyed==1.5.0 #######
       - stack-data==0.6.3
       - texttable==1.7.0
