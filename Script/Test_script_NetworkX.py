@@ -1,5 +1,6 @@
 # Description: Test script for Networkx
 # https://networkx.org/documentation/stable/reference/readwrite/generated/networkx.readwrite.graphml.read_graphml.html
+
 # read_graphml(path, node_type=<class 'str'>, edge_key_type=<class 'int'>, force_multigraph=False)
 import networkx as nx
 
@@ -67,4 +68,23 @@ node_labels = nx.get_node_attributes(
 )  # Replace 'label' with the actual attribute name if available
 nx.draw(G, pos, with_labels=False, node_color="lightblue", edge_color="gray")
 nx.draw_networkx_labels(G, pos, labels=node_labels)
+plt.show()
+
+
+# Read other graph
+G2 = nx.read_graphml("Data/reactome-77-reaction_R-HSA-5696021.graphml")
+
+
+# Draw the graph
+plt.figure(figsize=(10, 10))  # Adjust the figure size as needed
+nx.draw(
+    G2,
+    with_labels=True,
+    node_color="lightblue",
+    edge_color="gray",
+    node_size=500,
+    font_size=8,
+)
+
+# Show the plot
 plt.show()
